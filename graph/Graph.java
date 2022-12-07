@@ -37,7 +37,7 @@ public class Graph {
     Edge terowonganKePosTujuan = new Edge(posTujuan, panjangTerowongan, luasTerowongan);
     Edge terowonganKePosAsal = new Edge(posAsal, panjangTerowongan, luasTerowongan);
 
-    // sambungkan terowongan asal dan tujuan
+    // sambungkan terowongan ke pos asal dan tujuan
     posAsal.addTerowongan(terowonganKePosTujuan);
     posTujuan.addTerowongan(terowonganKePosAsal);
 

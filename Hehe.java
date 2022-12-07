@@ -19,7 +19,7 @@ class Hehe {
     // inisiasi vertex
     sistemTerowongan.addPos(1, false);
     sistemTerowongan.addPos(2, false);
-    sistemTerowongan.addPos(3, false);
+    sistemTerowongan.addPos(3, true);
     sistemTerowongan.addPos(4, false);
 
     // bangun terowongan antar pos
